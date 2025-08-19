@@ -1,0 +1,38 @@
+.form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.rs-form-group {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.rs-form-control-label {
+  font-weight: bold;
+  color: #555;
+}
+
+.rs-btn-primary {
+  width: 100%;
+  background: #007bff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.rs-btn-primary:hover {
+  background: #0056b3;
+}

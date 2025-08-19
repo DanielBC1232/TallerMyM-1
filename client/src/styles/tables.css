@@ -1,0 +1,99 @@
+.main {
+    background-color: #2d3946 !important;
+    /* fondo oscuro elegante */
+}
+
+nav .header-border{
+    border: 10px;
+    border-bottom: #5a6b7d;
+    color: #5a6b7d;
+}
+
+table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    font-family: sans-serif !important;
+}
+
+thead th {
+    background-color: rgb(34, 47, 61) !important;
+    padding: 10px !important;
+    text-align: left !important;
+    color: #fff !important;
+    border-top: 1px solid #4d727800 !important;
+    border-bottom: 1px solid #4D7278 !important;
+}
+
+tbody td {
+    background-color: rgb(44, 57, 71) !important;
+    padding: 10px !important;
+    color: #fff !important;
+    border-top: 1px solid #4D7278 !important;
+    /* línea horizontal más clara */
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: none !important;
+}
+
+tbody tr:last-child td {
+    border-bottom: none !important;
+}
+
+/* Bordes redondeados en la última fila */
+tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 0.5rem !important;
+}
+
+tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 0.5rem !important;
+}
+
+.shadow-none {
+    box-shadow: none !important;
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.background-darkest,
+.background-darkest * {
+    color: #5A6B7D !important;
+}
+
+.background-darkest .btn {
+    color: #fff !important;
+}
+
+.background-darkest select,
+.background-darkest .custom-select {
+    color: rgb(44, 57, 71) !important;
+}
+
+.btn {
+    height: 31px;
+}
+
+.select__control {
+    border-radius: 1.75rem !important;
+}
+
+.flujo-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.flujo-col {
+    flex: 1 1 350px;
+    max-width: 100%;
+}

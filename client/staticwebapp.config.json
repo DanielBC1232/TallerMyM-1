@@ -1,0 +1,19 @@
+{
+    "routes": [
+        {
+            "route": "/*",
+            "allowedRoles": [
+                "anonymous"
+            ],
+            "rewrite": "https://expressmym-fdckhscmhndrf0h0.eastus2-01.azurewebsites.net:3000/*",
+            "headers": {
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "GET, POST, PUT, PATCH, DELETE, OPTIONS",
+                "Access-Control-Allow-Headers": "*"
+            }
+        }
+    ],
+    "globalHeaders": {
+        "Access-Control-Allow-Origin": "*"
+    }
+}

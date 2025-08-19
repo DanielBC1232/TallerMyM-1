@@ -1,0 +1,53 @@
+/* Inventario */
+.article-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 4 o 5 columnas por fila */
+  gap: 1rem;
+  padding: 0rem;
+}
+
+.article {
+  background-color: #fff;
+  text-align: start;
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.article:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top{
+  height: 300px;
+  width: 450px;
+}
+
+/* IMG */
+.img-container {
+  width: 400px;
+  height: 350px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.imgDetalle:hover .upload-btn {
+  opacity: 1;
+  border: 0;
+}
+
+.imgDetalle:hover .delete-btn {
+  opacity: 1;
+}
+
+.scrollable-container {
+  max-height: 75vh;
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  margin-bottom: 20px;
+
+}
+
+.scrollable-container::-webkit-scrollbar {
+  display: none;
+}

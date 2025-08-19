@@ -1,0 +1,34 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Variable del email
+EMAIL_USER=paolabellanero13@gmail.com
+EMAIL_PASS=nvek qghj rcak mmcb
+
+# Variable 
+DB_NAME=MYM_DB
+DB_USER=MYM_User
+DB_PASS=T4ll3RMyM-
+DB_SERVER=DAN

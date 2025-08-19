@@ -1,0 +1,14 @@
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input{
+    max-width: 400px;
+}
+
+select{
+  max-width: 400px;
+
+}
